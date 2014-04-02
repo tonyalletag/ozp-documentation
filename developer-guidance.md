@@ -1,4 +1,4 @@
-Userdance and Standards
+User guidance and Standards
 This document outlines the standards and guidance for developers working on the core OZONE Platform repositories, as well as other developers making contributions through plugins, addons, or additional functionality.
 
 ### Formatting
@@ -24,7 +24,6 @@ This document outlines the standards and guidance for developers working on the 
 1. All JavaScript objects that summarize a domain object or Class-like structure will be capitalized (ex: ```ThisClass```).
 2. All instantiation of objects will be represented in camel case (ex: ```var thisClass = new ThisClass()```)
 3. Object-oriented design will be applied using prototypal inheritance (https://en.wikipedia.org/wiki/Prototype-based_programming). This is to be conducted with the use of prototype chaining between objects, not object and key/value extensions (see reference).
-4. 
 
 ### Language Use
 1. The core OZONE Platform service layer will be constructed in Node.js. Additional permutations of the software may exist as other implementations through external efforts or community pull requests.
