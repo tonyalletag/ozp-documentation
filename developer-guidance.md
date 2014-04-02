@@ -1,4 +1,4 @@
-## User guidance and Standards
+## Developer Guidance and Standards
 This document outlines the standards and guidance for developers working on the core OZONE Platform repositories, as well as other developers making contributions through plugins, addons, or additional functionality.
 
 ### Formatting
