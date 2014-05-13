@@ -22,9 +22,7 @@ Software should be split into three discrete units for deployment:
 * Database and other storage options should be either clustered or distributed for default. This allows for growth, as well as performance needs.
 * Cross-WAN access to these from external systems or users should not occur, but be protected in a VLAN enclave or firewall rule set.
 * Database accesses should also provide caching for certain, high-frequency access objects, like user credentials. This should occur at the SaaS for the most part, but the capability should be provided not only in software but in infrastructure choices (Memcached against MongoDB, for example).
-
-** Retrieve from cache first, on fail, thrash I/O.
-** Check cache for write, update, and save into DB.
+* The software should retrieve from cache first, and on fail then thrash I/O. To persist, it should check cache for write, update, and save into DB.
 
 ### Single or Small Cluster Deployments (JVM API)
 
