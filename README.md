@@ -6,3 +6,4 @@ This repository contains guidelines, standards and documentation for the OZONE P
 1. [Developer Guidelines and Standards](https://github.com/ozone-development/ozp-documentation/blob/master/developer-guidance.md)
 2. [Browser Support Guidelines](https://github.com/ozone-development/ozp-documentation/blob/master/browser-support.md)
 3. [508 Disability Compliance Guidelines](https://github.com/ozone-development/ozp-documentation/blob/master/508-compliance.md)
+4. [Deployment Strategies](https://github.com/ozone-development/ozp-documentation/blob/master/deployment-strategies.md)
