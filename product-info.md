@@ -4,16 +4,16 @@
 * App Renderer
 * Tile Based Container
 
-### OZONE Center - Find Stuff
+#### OZONE Center - Find Stuff
 * Apps Mall
 
-### OZONE Platform
+#### OZONE Platform
 * Node Rest Controller 
 * JVM Rest Controller
 * Legacy Adapter
 * Interwidget Communication
 
-### OZONE HUD - Apps Integration
+#### OZONE HUD - Apps Integration
 * OZONE Ecosystem and Plugins
 
 ### OZONE AppBuild - Use Complicated Stuff
