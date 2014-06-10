@@ -1,20 +1,23 @@
 ## Product List
 
-### Node Rest Controller 
-
-### JVM Rest Controller
-
-### Webtop 
+#### OZONE Webtop - Use Stuff
 * App Renderer
 * Tile Based Container
 
-### Legacy Adapter
+### OZONE Center - Find Stuff
+* Apps Mall
 
-### Interwidget Communication
+### OZONE Platform
+* Node Rest Controller 
+* JVM Rest Controller
+* Legacy Adapter
+* Interwidget Communication
 
-### Metrics
+### OZONE HUD - Apps Integration
+* OZONE Ecosystem and Plugins
 
-### OZONE Center (Apps Mall)
+### OZONE AppBuild - Use Complicated Stuff
+* OZONE Power Users
 
 ### Production Deployment Repos
 1. OZONE Platform - https://github.com/ozoneplatform 
