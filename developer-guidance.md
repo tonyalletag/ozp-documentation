@@ -5,6 +5,7 @@ This document outlines the standards and guidance for developers working on the 
 1. Whitespace will be spaces only with indentation of four spaces. Where tabs are used in IDEs, these are to be converted to spaces.
 2. No trailing EOLs will be left in a source code file.
 3. Scope application (brackets/braces/etc.) will be applied on the next line:
+
     ```javascript
             for (var i = 0; i <= 25; i++)
             {
