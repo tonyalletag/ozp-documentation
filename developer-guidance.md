@@ -26,6 +26,9 @@ This document outlines the standards and guidance for developers working on the 
 2. All instantiation of objects will be represented in camel case (ex: ```var thisClass = new ThisClass()```)
 3. Object-oriented design will be applied using prototypal inheritance (https://en.wikipedia.org/wiki/Prototype-based_programming). This is to be conducted with the use of prototype chaining between objects, not object and key/value extensions (see reference).
 
+### Repository
+1. When merging a branch (merge/pull request), delete the branch upon completion.
+
 ### Language Use
 1. The core OZONE Platform service layer will be constructed in Node.js. Additional permutations of the software may exist as other implementations through external efforts or community pull requests.
 
