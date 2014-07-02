@@ -20,9 +20,11 @@
 
 **OZONE Center:** Marketplace and the HUD
 
-**Webtop:** Portal that allows users to analyze data using applications
+**HUD [working title]:** Homepage with custom role-based layout and “widgets”
 
 **Marketplace:**  Shared application library
+
+**Webtop:** Portal that allows users to analyze data using applications
 
 **OZONE Platform:**  Secure framework that allows for the usage and creation of applications and communication between applications
 
@@ -32,4 +34,4 @@
 
 **OZONE Metrics:** Data gathered from the OZONE software package for software maintenance team, store maintenance team, and app developers
 
-**HUD [working title]:** Homepage with custom role-based layout and “widgets”
+
