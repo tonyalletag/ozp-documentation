@@ -1,28 +1,25 @@
 # OZONE Taxonomy #
 ## UI Elements ##
-**Widget:** A lightweight application
 
-**Application:** A more robust software piece
+**Application:** A web-based tool that uses the browser as a client
 
 **Dashboard:** A layout incorporating widgets and/or web applications
 
-**Suite:** A collection of applications and/or widgets within the Marketplace
+**Suite:** A collection of applications and/or widgets within the Center
 
 **Folder:** A collection of applications and/or widgets within the HUD or Webtop
 
 **Tag:**  a user-defined keyword used for describing a widget, application, dashboard, or suite
 
-**Listing:**  An entry in the Marketplace (e.g. a widget, application, dashboard, or suite)
+**Listing:**  An entry in the Center (e.g. a widget, application, dashboard, or suite)
 
 
 ## Software Architecture##
 **OZONE:** Open source software package designed to support data analysis
 
-**OZONE Center:** Marketplace and the HUD
+**Center:**  Search and discovery Application Catalog
 
 **HUD [working title]:** Homepage with custom role-based layout and “widgets”
-
-**Marketplace:**  Shared application library
 
 **Webtop:** Portal that allows users to analyze data using applications
 
