@@ -15,20 +15,20 @@
 
 
 ## Software Architecture##
-**OZONE:** Open source software package designed to support data analysis
+**OZONE:** The continuous effort to unite the community on a single computing platform
 
-**Center:**  Search and discovery Application Catalog
+**OZONE Platform (OZP):** A centralized software-as-a-service framework that allows for running web applications, and the communications between them, entirely within the browser 
 
-**HUD [working title]:** Homepage with custom role-based layout and “widgets”
+**OZONE Center:** Consists of the Marketplace and HALO.
+
+**Marketplace:** Search and discovery application catalog.
+
+**HALO:** User-driven homepage with custom role-based layout and favorited applications.
 
 **Webtop:** Portal that allows users to analyze data using applications
-
-**OZONE Platform:**  Secure framework that allows for the usage and creation of applications and communication between applications
 
 **Inter-Widget Communications (IWC):**  Communication bus within the browser for widgets and applications
 
 **Controller:** A set of services that provide data
 
-**OZONE Metrics:** Data gathered from the OZONE software package for software maintenance team, store maintenance team, and app developers
-
-
+**OZONE Metrics:** Business analytics designed to gather data from the OZONE software package for software and system maintenance and app development
