@@ -11,14 +11,14 @@
 * Node Rest Controller 
 * JVM Rest Controller
 * Legacy Adapter
-* Interwidget Communication
+* Interwidget Communication (IWC)
 
 #### OZONE HUD - Apps Integration
 * OZONE Ecosystem and Plugins
 
-### OZONE AppBuild - Use Complicated Stuff
+### OZONE AppBuilder - Use Complicated Stuff
 * OZONE Power Users
 
 ### Production Deployment Repos
 1. OZONE Platform - https://github.com/ozoneplatform 
-2. OZONE Center - https://github.com/applicationsmall
+2. OZONE Center - https://github.com/ozonecenter
