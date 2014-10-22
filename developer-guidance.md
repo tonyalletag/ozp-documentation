@@ -1,14 +1,18 @@
 ## Developer Guidance and Standards
 This document outlines the standards and guidance for developers working on the core OZONE Platform repositories, as well as other developers making contributions through plugins, addons, or additional functionality.
 
+As a general rule, we use the [Google Javascript style guide](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml). The additional points below are for clarification and any differences from the Google style guide.
+
+### Consistency
+The biggest takeaway from the Google style guide is to BE CONSISTENT. When creating or editing source code, look at the surrounding code and make your code look like the existing code. 
+
 ### Formatting
 1. Whitespace will be spaces only with indentation of four spaces. Where tabs are used in IDEs, these are to be converted to spaces.
 2. No trailing EOLs will be left in a source code file.
-3. Scope application (brackets/braces/etc.) will be applied on the next line:
+3. Scope application (brackets/braces/etc.) will be applied on the same line:
 
     ```javascript
-            for (var i = 0; i <= 25; i++)
-            {
+            for (var i = 0; i <= 25; i++) {
                 // insert code here
             }
     ```
