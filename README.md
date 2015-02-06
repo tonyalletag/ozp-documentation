@@ -10,3 +10,5 @@ This repository contains guidelines, standards and documentation for the OZONE P
 5. [Deployment Strategies](https://github.com/ozone-development/ozp-documentation/blob/master/deployment-strategies.md)
 6. [OZONE Taxonomy](https://github.com/ozone-development/ozp-documentation/blob/master/taxonomy.md)
 7. [Workflows](https://github.com/ozone-development/ozp-documentation/wiki/Workflows)
+8. [IWC App Integration Guide](https://github.com/ozone-development/ozp-iwc/blob/master/docs/iwcAppIntegrationGuide.md)
+9. [IWC Backend Integration Guide](https://github.com/ozone-development/ozp-iwc/blob/master/docs/iwcBackendIntegrationGuide.md)
