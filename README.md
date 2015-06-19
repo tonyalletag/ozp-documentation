@@ -13,7 +13,10 @@ This repository contains guidelines, standards and documentation for the OZONE P
 8. [IWC App Integration Guide](https://github.com/ozone-development/ozp-iwc/blob/master/docs/iwcAppIntegrationGuide.md)
 9. [IWC Backend Integration Guide](https://github.com/ozone-development/ozp-iwc/blob/master/docs/iwcBackendIntegrationGuide.md)
 
-Pull Request
+OZP Pull Request
 ==============================
 The OZONE Platform team is excited to have the opportunity to receive pull request from the community.  Pull request should be submitted following the Fork & Pull guidance in [GitHub Help] (https://help.github.com/articles/using-pull-requests/). We request that pull request be submitted in small chunks as to limit the review and integration time commitment from our team.
 
+OZP Releases
+==============================
+https://github.com/ozoneplatform/ozp-releases
