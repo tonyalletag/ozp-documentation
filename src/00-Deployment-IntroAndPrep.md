@@ -68,7 +68,7 @@ tier.
 The stacks listed below use the non-versioned name of software.  Refer to the above list for specific version information.
 
 | User Service     | Metrics      |
-===================================
+-----------------------------------
 | HAProxy          | HAProxy      |
 | NGINX            | Apache HTTPD |
 | Apache Tomcat    | PHP          |
@@ -84,7 +84,7 @@ This tier uses the following platform stack:
 
 ##### Module A: Static Web Content Distribution #####
 * CentOS
-* OpenResty (NGINX)
+* Apache HTTPD
 
 ##### Module B: Dynamic Web Content Distribution #####
 * CentOS
@@ -117,7 +117,6 @@ provide X.509v3 based PKI authentication and authorization.  If this feature is 
 #### Customization Procedure ####
 [Customizing OZP Rest for X.509v3 PKI](BuildCustomize/customizing-ozp-rest-war.md)
 
-### 
 
 
 
