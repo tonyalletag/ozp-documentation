@@ -103,7 +103,7 @@ This tier uses the following platform stack:
 
 ### Non-Developed Software Preparation ###
 
-No preparation beyond acquisition through normal methods is required.
+No special preparation is required.
 
 ### Developed Software Preparation ###
 
