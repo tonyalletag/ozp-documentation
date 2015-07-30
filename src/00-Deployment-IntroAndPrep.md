@@ -68,9 +68,9 @@ tier.
 The stacks listed below use the non-versioned name of software.  Refer to the above list for specific version information.
 
 | User Service     | Metrics      |
------------------------------------
+|------------------|--------------|
 | HAProxy          | HAProxy      |
-| NGINX            | Apache HTTPD |
+| Apache HTTPD     | Apache HTTPD |
 | Apache Tomcat    | PHP          |
 | MariaDB          | MariaDB      |
 
