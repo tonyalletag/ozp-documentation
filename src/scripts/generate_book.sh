@@ -12,6 +12,7 @@
 #  more robust.
 
 
+
 DEFAULT_OUTPUT_FILE_BASENAME="ozp-deploy"
 DEFAULT_OUTPUT_FORMAT="pdf"
 DEFAULT_OUTPUT_DIR=/tmp
@@ -28,6 +29,14 @@ ORDERED_SOURCE_LIST="00-Deployment-IntroAndPrep.md \
                      InstallConfigure/installing-ozp-iwc-and-client-components.md \
                      InstallConfigure/installing-ozp-metrics.md \
                      InstallConfigure/installing-haproxy.md"
+
+
+# !!! PANDOC (pandoc.org) is needed to generate the output file
+pandoc_cmd=$(command -v pandoc)
+if [ -z "$pandoc_cmd" ]; then
+    echo $"pandoc (pandoc.org) is needed to generate the output file!  Please install (or add to your PATH) and rerun." >&2
+    exit 1
+fi
 
 output_format=${DEFAULT_OUTPUT_FORMAT}
 output_file_basename=${DEFAULT_OUTPUT_FILE_BASENAME}
@@ -70,11 +79,11 @@ if [ -e "${output_file}" ]; then
     mv ${output_file} ${output_file}.${ts}
     if [ -e "${output_file}" ]; then
 	echo "ERROR: Unable to move/delete ${output_file} for document generation.  Please remove then rerun script." 1>&2
-	exit 1
+	exit 2
     fi
 fi
 
-(cd $doc_sources_dir && pandoc --from=markdown_github --toc --standalone -o "${output_file}" $ORDERED_SOURCE_LIST)
+(cd $doc_sources_dir && $pandoc_cmd --from=markdown_github --toc --standalone -o "${output_file}" $ORDERED_SOURCE_LIST)
 
 if [ -e "${output_file}" ]; then
     echo $"Generated file: ${output_file}"
