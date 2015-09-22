@@ -15,7 +15,7 @@
 
 DEFAULT_OUTPUT_FILE_BASENAME="ozp-deploy"
 DEFAULT_OUTPUT_FORMAT="pdf"
-DEFAULT_OUTPUT_DIR=/tmp
+DEFAULT_OUTPUT_DIR=.
 
 ORDERED_SOURCE_LIST="00-Deployment-IntroAndPrep.md \
                      01-Overview.md \
