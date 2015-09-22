@@ -13,9 +13,9 @@
 
 
 
-DEFAULT_OUTPUT_FILE_BASENAME="ozp-deploy"
+DEFAULT_OUTPUT_FILE_BASENAME="OZP_Deployment_Guide"
 DEFAULT_OUTPUT_FORMAT="pdf"
-DEFAULT_OUTPUT_DIR=.
+DEFAULT_OUTPUT_DIR=../Documentation
 
 ORDERED_SOURCE_LIST="00-Deployment-IntroAndPrep.md \
                      01-Overview.md \
@@ -83,7 +83,7 @@ if [ -e "${output_file}" ]; then
     fi
 fi
 
-(cd $doc_sources_dir && $pandoc_cmd --from=markdown_github --toc --standalone -o "${output_file}" $ORDERED_SOURCE_LIST)
+(cd $doc_sources_dir && $pandoc_cmd --from=markdown_github --toc -V geometry:margin=1in --standalone -o "${output_file}" $ORDERED_SOURCE_LIST)
 
 if [ -e "${output_file}" ]; then
     echo $"Generated file: ${output_file}"
