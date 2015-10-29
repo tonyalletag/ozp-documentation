@@ -27,4 +27,4 @@ The OZONE Platform team is excited to have the opportunity to receive pull reque
 
 RoadMap
 ===============================
-![img](Documentation/Ozone_roadmap.pptx)
+![img](Documentation/Ozone_roadmap.gif)
