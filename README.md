@@ -24,3 +24,7 @@ http://area51.stackexchange.com/proposals/82636/ozone-platform-stack-exchange-is
 OZP Pull Request
 ==============================
 The OZONE Platform team is excited to have the opportunity to receive pull request from the community.  Pull request should be submitted following the Fork & Pull guidance in [GitHub Help] (https://help.github.com/articles/using-pull-requests/). We request that pull request be submitted in small chunks as to limit the review and integration time commitment from our team.
+
+RoadMap
+===============================
+![img](Documentation/Ozone_roadmap.pptx)
