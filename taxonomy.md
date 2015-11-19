@@ -3,32 +3,34 @@
 
 **Application:** A web-based tool that uses the browser as a client
 
-**Dashboard:** A layout incorporating widgets and/or web applications
+**Dashboard:** A layout on the Webtop where you can configure widgets and/or web applications for a specific task. Use it to organize your tools. You can make several dashboards (and reuse widgets and web apps on them, consider making different dashboards to correspond with different workflows.) 
 
-**Suite:** A collection of applications and/or widgets within the Center
+**Folder:** A collection of listings saved from the Center and used as applications and/or widgets within the HUD or Webtop
 
-**Folder:** A collection of applications and/or widgets within the HUD or Webtop
+**Listing:**  An entry in the Center (e.g. a widget, application, etc.) Users bookmark listings to their HUD where they can group them into folders or open the listings directly into Webtop from Center. 
 
-**Tag:**  a user-defined keyword used for describing a widget, application, dashboard, or suite
+<br>
+**Bookmark** Links in the HUD that reference listings users saved from Center. Use bookmarks to launch or add listings from HUD to Webtop. 
 
-**Listing:**  An entry in the Center (e.g. a widget, application, dashboard, or suite)
+**System Help** Identified by a question mark icon, system help houses instructions for using the system. Find widget- or web app- specific help under their respective drop-down menus in HUD. 
+
+**Notifications** Located on the top-right of the global toolbar, Center stewards use notifications to alert users of potential outages, updates, etc.
+
+**Tag:**  a user-defined keyword used for describing a widget or application. The listing creator must add a tag when they fill out the Create Listing form, then the listing owner(s) and stewards can add and update tags. 
+
 
 
 ## Software Architecture##
-**OZONE:** The continuous effort to unite the community on a single computing platform
 
 **OZONE Platform (OZP):** A centralized software-as-a-service framework that allows for running web applications, and the communications between them, entirely within the browser 
 
-**OZONE Center:** Consists of the Marketplace and HALO.
+<br>
 
-**Marketplace:** Search and discovery application catalog.
+**Center:** OZONE's app store component. This is where users find tools to do their jobs. These tools, known as listings, consist of widgets, web applications, etc. Users can search for them using filters, search terms and categories. 
 
-**HALO:** User-driven homepage with custom role-based layout and favorited applications.
+**Inter-Widget Communications (IWC):**  Communication bus within the browser used for widgets and applications to share data within the browser.
 
-**Webtop:** Portal that allows users to analyze data using applications
+**Metrics:** Business analytics designed to gather data from the OZONE software package for software and system maintenance and app development
 
-**Inter-Widget Communications (IWC):**  Communication bus within the browser for widgets and applications
+**Webtop:** Similar to the desktop on a personal computer, the webtop is the workspace within OZONE. From Webtop, users do their work using dashboards, widgets, web apps, etc.
 
-**Controller:** A set of services that provide data
-
-**OZONE Metrics:** Business analytics designed to gather data from the OZONE software package for software and system maintenance and app development
