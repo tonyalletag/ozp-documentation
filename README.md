@@ -18,8 +18,8 @@ https://github.com/ozoneplatform/ozp-releases
 **OZP Backend (In Development - not in production)**  
 https://github.com/ozone-development/ozp-backend
 
-**Q&A (Please sign up for an account and help us get a StackExchange Community)**  
-http://area51.stackexchange.com/proposals/82636/ozone-platform-stack-exchange-is-a-question-and-answer-site-for-ozone-platform-de?referrer=fwgGmaJWzcFpt7RiP2iCNA2
+**OZP Wiki**
+https://github.com/ozone-development/ozp-documentation/wiki
 
 OZP Pull Request
 ==============================
