@@ -8,6 +8,9 @@ http://ozone-development.github.io/ozone-website/
 https://github.com/ozone-development/ozp-documentation/wiki  
 https://github.com/ozone-development/ozp-documentation/tree/master/Documentation
 
+**Developer Setup**  
+https://github.com/ozone-development/ozp-documentation/wiki/Developer_Setup
+
 **IWC Documentation:**  
 http://ozone-development.github.io/ozp-iwc/  
 http://ozone-development.github.io/ozp-iwc/FAQ.html
