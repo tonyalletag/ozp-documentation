@@ -18,7 +18,7 @@ http://ozone-development.github.io/ozp-iwc/FAQ.html
 **OZP Release Info:**  
 https://github.com/ozoneplatform/ozp-releases
 
-**OZP Backend (In Development - not in production)**  
+**OZP Backend**  
 https://github.com/ozone-development/ozp-backend
 
 **OZP Wiki**
