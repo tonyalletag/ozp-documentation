@@ -35,7 +35,7 @@ need contributors to follow so that we can have a chance of keeping on top of th
 
 ## Submitting Changes
 
-* Sign and return the[Contributor License Agreement](https://github.com/ozone-development/ozp-documentation/blob/master/cla.md) to [cla@zoneplatform.org](cla@ozoneplatform.org) 
+* Sign and return the[Contributor License Agreement](https://github.com/ozone-development/ozp-documentation/blob/master/cla.md) to [amlpmo@ugov.gov](amlpmo@ugov.gov) 
 * Push your changes to a topic branch in your fork of the repository.
 * Submit a pull request to the repository in the ozone-development organization.
 * Update GitHub issue to mark that you have submitted code and are ready for it to be reviewed (Status: Ready for Merge).
