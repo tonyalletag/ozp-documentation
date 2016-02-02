@@ -26,16 +26,22 @@ need contributors to follow so that we can have a chance of keeping on top of th
 * Check for unnecessary whitespace with `git diff --check` before committing.
 * Make sure your commit messages are in the proper format.
 
-````
+```
+<type>(<scope>): <subject> <issue #>
+```
+   * Examples
+    * `feat(Navbar): Added Navbar to top of page #45` 
+    * `bug(Submit Button) fixed form submit button #121`
+    * `chore(tag/release) release-X.Y.Z` 
+    * `fix(menu) fixed broken link #92`
     
-````
 
 * Make sure you have added the necessary tests for your changes.
 * Run _all_ the tests to assure nothing else was accidentally broken.
 
 ## Submitting Changes
 
-* Sign and return the[Contributor License Agreement](https://github.com/ozone-development/ozp-documentation/blob/master/cla.md) to [amlpmo@ugov.gov](amlpmo@ugov.gov) 
+* By Submitting a pull request you are agreeing to the [Contributor License Agreement](https://github.com/ozone-development/ozp-documentation/blob/master/cla.md)
 * Push your changes to a topic branch in your fork of the repository.
 * Submit a pull request to the repository in the ozone-development organization.
 * Update GitHub issue to mark that you have submitted code and are ready for it to be reviewed (Status: Ready for Merge).
