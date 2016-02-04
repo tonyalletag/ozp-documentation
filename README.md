@@ -26,7 +26,7 @@ https://github.com/ozone-development/ozp-documentation/wiki
 
 OZP Pull Request
 ==============================
-The OZONE Platform team is excited to have the opportunity to receive pull request from the community.  Pull request should be submitted following the Fork & Pull guidance in [GitHub Help] (https://help.github.com/articles/using-pull-requests/). The Repos that we expect most contributions from will have a [CONTRIBUTING.md](https://github.com/ozone-development/ozp-documentation/blob/master/CONTRIBUTING.md) We request that pull request be submitted in small chunks as to limit the review and integration time commitment from our team.
+The OZONE Platform team is excited to have the opportunity to receive pull request from the community.  Pull request should be submitted following the Fork & Pull guidance in [GitHub Help] (https://help.github.com/articles/using-pull-requests/). The Repos that we expect most contributions from will have a [CONTRIBUTING.md](https://github.com/ozone-development/ozp-documentation/blob/master/CONTRIBUTING.md) file. We request that pull request be submitted in small chunks as to limit the review and integration time commitment from our team.
 
 RoadMap
 ===============================
